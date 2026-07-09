@@ -42,8 +42,7 @@ def draw_gauge(raw_delay):
                 arrowprops=dict(arrowstyle="->", color="red", lw=4))
     
     ax.set_yticklabels([])
-    
-    # Display the math
+    #   Display the math
     ax.set_title(f"Audio Source Direction\nCentered Raw Lag: {raw_delay}\nAngle: {int(angle_deg)}°", va='bottom')
     plt.show()
 
